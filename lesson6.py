@@ -87,6 +87,12 @@ students.append('Thomas')
 # если хотим добавить список с несколькими студентами к списку то используем extend
 new_students = ['Nick', 'Sara']
 students.extend(new_students)
+print(students) # ['Kate', 'Mike', 'Bob', 'Peter', 'Zuck', 'Nick', 'Sara']
+
+# если мы используем не extend, а append когда хотим добавить список к списку, то получится вот так
+new_students = ['Nick', 'Sara']
+students.append(new_students)
+print(students) # ['Kate', 'Mike', 'Bob', 'Peter', 'Zuck', ['Nick', 'Sara']]
 
 # если хотим вывести список первых трёх студентов то указываем начало и конец
 print(students[0:3])
