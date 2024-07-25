@@ -33,7 +33,7 @@ print(max(lst1) - max(lst2))
 
 # с return тоже можно использовать форматирование строк:
 def ploshad_kruga(radius):
-    return f"Площадб круга с радиусом {radius} = {3.14 * radius ** 2}"
+    return f"Площадь круга с радиусом {radius} = {3.14 * radius ** 2}"
 
 
 # try except
