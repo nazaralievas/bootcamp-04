@@ -23,7 +23,7 @@ print(p2.__dict__) # выдаст в консоли {'name': 'Peter Parker', 'ph
 
 
 # на уроке вы самостоятельно писали класс Taxist с такими атрибутами как: имя, номер телефона, марка машины, номер машины и стаж вождения (вводим год когда он получил водительские права)
-class Taxist: # 
+class Taxist:
     def __init__(self, name, phone, marka, car_num, staj):
         self.name = name
         self.phone = phone
