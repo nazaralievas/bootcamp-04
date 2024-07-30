@@ -44,7 +44,7 @@ class Blue(Red):
 # поэтому мы можем создавать экземпляр класса Blue вот так
 blue1 = Blue('Monsterr777')
 
-print(blue2.__dict__) # выведет нам {'life': 100, 'name': 'Godzilla007'}
+print(blue1.__dict__) # выведет нам {'life': 100, 'name': 'Godzilla007'}
 
 
 
